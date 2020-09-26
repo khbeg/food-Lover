@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'aachen';
+}
+.header{
+    min-height: 100vh;
+    background: url(../images/header__bg.png)center/ cover no-repeat;
+
+}
+.header_alpha{
+    background: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    min-height: 100vh;
+}
