@@ -1,0 +1,19 @@
+@font-face{
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-Bold.ttf);
+    
+
+}
+@font-face{
+    font-family: 'aachen';
+    src: url(../fonts/aachenn.ttf);
+
+
+}
+@font-face{
+    font-family: 'aachen';
+    src: url(../fonts/aachenb.ttf);
+    font-weight: bold;
+
+
+}
