@@ -1,18 +1,65 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'aachen';
 }
-.header{
+
+.container {
+    width: 1110px;
+    margin: auto;
+}
+
+.header {
     min-height: 100vh;
     background: url(../images/header__bg.png)center/ cover no-repeat;
 
 }
-.header_alpha{
+
+.header_alpha {
     background: rgba(0, 0, 0, 0.9);
     width: 100%;
     min-height: 100vh;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.nav__list_l {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav__list_r {
+    display: flex;
+    list-style: none;
+   
+}
+.header__link{
+    color: white;
+    text-decoration: none;
+}
+.nav__list_l a{
+    margin-right: 50px;
+}
+.nav__list_r a{
+    margin-left: 50px;    
+}
+.header__blog{
+    padding-top: 120px; 
+    display: flex;
+    
+}   
+
+.blog__info__title{
+    color: #e58f00;
+    font-size: 67px;
 }
