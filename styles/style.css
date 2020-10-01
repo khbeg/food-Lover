@@ -56,10 +56,37 @@ body {
 .header__blog{
     padding-top: 120px; 
     display: flex;
-    
+ 
 }   
-
+.blog__info{
+    width: 100%;
+}
 .blog__info__title{
     color: #e58f00;
     font-size: 67px;
+    
+    
+}
+.blog__info__text{
+    margin-left: 10px;
+    color: white;
+    font-size: 25px;
+}
+.blog__info__button{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 200px;
+    height: 70px;
+    background: #e58f00;
+    color: #28282d;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/* -----------------------------------------main------------------------------------------- */
+.main{
+    background: #1d1d23;
 }
