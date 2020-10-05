@@ -41,8 +41,30 @@
     .blog__info__title{
         font-size: 55px;
     }
+    #main-about{
+        display: none;
+    }
+    .about-us{
+        width: 100%;
+    }
+    .about-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        text-align: center;
+    }
+    .about-info__title{
+        margin: 0;
+    }
+    .about-info__text{
+        margin: 0;
+    }
 }
-@media(max-width:768px){}
+@media(max-width:768px){
+    
+  
+}
 @media(max-width:570px){
     .nav__list_l li{
         margin-top: 15px;

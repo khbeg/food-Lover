@@ -99,3 +99,25 @@ body {
 .main {
     background: #1d1d23;
 }
+.about-us{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 115px;
+}
+.about-info{
+    width: 100%;
+     
+    
+}
+.about-info__title{
+    color: white;
+    font-size: 50px;
+    margin-top: 135px;
+    margin-left: 25px;
+}
+.about-info__text{
+    color: white;
+    font-size: 33px;
+    margin-left: 25px;
+    
+}
