@@ -98,6 +98,7 @@ body {
 /* -----------------------------------------main------------------------------------------- */
 .main {
     background: #1d1d23;
+  
 }
 .about-us{
     display: flex;
@@ -120,4 +121,9 @@ body {
     font-size: 33px;
     margin-left: 25px;
     
+}
+/* meal */
+.meal-block{
+    position: relative;
+    margin-top: 50px;
 }
