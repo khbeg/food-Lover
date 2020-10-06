@@ -32,7 +32,9 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
-   
+   .plates{
+       display: none    ;
+   }
 }
 @media(max-width:992px){
     .header__blog img{
@@ -62,7 +64,22 @@
     }
 }
 @media(max-width:768px){
-    
+    .meal-block__quality{
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        text-align: center;
+        
+    }
+    .quality__text{
+        height: 200px;
+        color: white;
+        overflow-x: scroll;
+    }
+    .meal__shape{
+        position: relative;
+    }
   
 }
 @media(max-width:570px){
