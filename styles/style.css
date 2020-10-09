@@ -183,12 +183,13 @@ body {
 .img_shape3 img{
  width: 700px;
  height: 800px;   
+ 
 }
 .img_shape3 {
     position: absolute;
     bottom: 50px;
     right: 0;
-    margin-right: -60px;
+    margin-right: 0;
 }
 
 
@@ -222,4 +223,51 @@ body {
     height: 100vh;
     background:url(../images/enjoy-bg.png) center no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enjoyment__item{
+    background: rgba(0, 0, 0, 0.8);
+    width: 705px;
+    text-align: center;
+    border: 10px #e58f00 solid  ;
+  
+}
+.enjoy__title{
+    font-size: 50px;
+    color: white;
+    padding-top: 90px;
+}
+.enjoy__text{
+    font-size: 33px;
+    color: white;
+    padding: 35px 90px 90px;
+}
+
+.main__menu{
+    padding-top: 190px;
+}
+.menu__start{
+    text-align: center;
+    margin-bottom: 90px;
+    
+}
+.menu__title{
+    color: white;
+    font-size: 50px;
+}
+
+.menu__food-type{
+    display: flex;
+    justify-content: space-between;    
+    width: 100% ;
+}
+.food-type__item{
+    max-width: 360px;
+    min-width: 320px;
+
+}
+.food-type__item img{
+    width: 100%;
 }
