@@ -98,6 +98,7 @@ body {
 /* -----------------------------------------main------------------------------------------- */
 .main {
     background: #1d1d23;
+    padding-bottom: 180px;
 
 }
 
@@ -270,4 +271,86 @@ body {
 }
 .food-type__item img{
     width: 100%;
+}
+.food-type__title{
+    font-size: 30px;
+    color: #e58f00;
+    padding-top: 45px;
+    text-transform: uppercase;
+}
+.food-type__text{
+    line-height: 20px;
+    color: white;
+    padding-top: 27px;
+}
+.food-type__price{
+    color: #e58f00;
+    font-size: 25px;
+    padding-top: 30px;
+}
+.footer{
+    width: 100%;
+}
+.footer__textarea{
+    width: 100%;
+    position: relative;
+    height: 505px;
+    background: #e58f00;
+    display: flex;
+    justify-content: center;
+}
+.footer__img{
+    height: 635px;
+    width: 630px;
+    position: absolute;
+    left: 0;
+    top: -50px;
+}
+.textarea__item{
+    width: 523px;
+    padding-top: 120px;
+    padding-bottom: 140px;
+    margin-left: 500px;
+}
+.textarea__title{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 45px;
+}
+.textarea__text{
+    font-size: 33px;
+    color: white;
+}
+.footer__end{
+    width: 100%;
+    background: #35353b;
+    text-align: center;
+    
+}
+.footer_block{
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+.footer_list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 78px;
+    padding-bottom: 45px;
+    
+}
+.footer__link{
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 21px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.footer__icons{
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
 }
